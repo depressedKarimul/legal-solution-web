@@ -26,6 +26,7 @@
           'main-title-color': '#414040',
           'main-text-color': '#707070',
           'card-title-color': '#414040',
+          'dark-01': 'var(--Dark-01, #111)',
           'custom-gradient': 'linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0) 100%)',
 
 
@@ -660,39 +661,55 @@
 <!-- Footer -->
 
 
-<footer class="footer bg-base-200 text-base-content p-36 h-[506px]">
-  <nav>
-    <h6 class="footer-title">Services</h6>
-    <a class="link link-hover">Branding</a>
-    <a class="link link-hover">Design</a>
-    <a class="link link-hover">Marketing</a>
-    <a class="link link-hover">Advertisement</a>
+<footer class="footer bg-dark-01  p-8 lg:p-36 lg:h-[506px] text-[#CFCFCF] text-font-Poppins">
+  <nav class="mr-20">
+    <h6 class="footer-title mb-8"><img src="images/logo.png" alt=""></h6>
+    <p>
+      There are many variations of passages of <br>
+       Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.
+    </p>
   </nav>
   <nav>
-    <h6 class="footer-title">Company</h6>
-    <a class="link link-hover">About us</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
-    <a class="link link-hover">Press kit</a>
+    <h6 class="footer-title lg:mb-12  text-white text-font-EB-Garamond">Usefull Link</h6>
+    <a class="link link-hover my-4">Homes</a>
+    <a class="link link-hover">About Us</a>
+    <a class="link link-hover my-4">Cases</a>
+    <a class="link link-hover">Blog</a>
+    <a class="link link-hover mt-4">Contact Us</a>
   </nav>
-  <nav>
-    <h6 class="footer-title">Legal</h6>
-    <a class="link link-hover">Terms of use</a>
-    <a class="link link-hover">Privacy policy</a>
-    <a class="link link-hover">Cookie policy</a>
+
+  <nav class="lg:ml-[119px]">
+    <h6 class="footer-title lg:mb-12  text-white text-font-EB-Garamond">Contact Now</h6>
+    <a class="link link-hover">
+      555 4th 5t NW, Washington
+      <br>
+DC 20530, United States
+    </a>
+    <a class="link link-hover my-4">
+      +88 01750 000 000
+      <br>
++88 01750 000 000
+    </a>
+    <a class="link link-hover">
+      info@gmail.com
+      <br>
+info@gmail.com
+    </a>
   </nav>
   <form>
-    <h6 class="footer-title">Newsletter</h6>
+    <h6 class="footer-title lg:mb-12 text-white text-font-EB-Garamond">Subscribe</h6>
     <fieldset class="form-control w-80">
       <label class="label">
-        <span class="label-text">Enter your email address</span>
+        <span class="label-text text-[#CFCFCF] mb-7">
+          Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails
+        </span>
       </label>
       <div class="join">
         <input
           type="text"
-          placeholder="username@site.com"
+          placeholder="Email Address"
           class="input input-bordered join-item" />
-        <button class="btn btn-primary join-item">Subscribe</button>
+        <button class="btn btn-primary join-item w-[72px] bg-btn-color"><img class="w-6 h-6" src="images/sent-btn.png" alt=""></button>
       </div>
     </fieldset>
   </form>
